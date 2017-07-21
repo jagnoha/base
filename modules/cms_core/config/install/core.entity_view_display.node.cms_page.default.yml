@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.cms_page.field_cms_page_body
+    - node.type.cms_page
+  module:
+    - text
+    - user
+id: node.cms_page.default
+targetEntityType: node
+bundle: cms_page
+mode: default
+content:
+  field_cms_page_body:
+    type: text_default
+    weight: 0
+    label: visually_hidden
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

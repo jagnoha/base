@@ -1,0 +1,37 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/blog-category\/lifestyle?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_category"
+        }
+    },
+    "uuid": [
+        {
+            "value": "48be887c-3937-489b-8af5-0b7285887f50"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_blog_category"
+        }
+    ],
+    "name": [
+        {
+            "value": "Lifestyle",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": "0"
+        }
+    ]
+}

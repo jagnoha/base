@@ -1,0 +1,37 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/blog-category\/design?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_category"
+        }
+    },
+    "uuid": [
+        {
+            "value": "29ae66bc-c21d-4ea0-ab00-c49ae49fc918"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_blog_category"
+        }
+    ],
+    "name": [
+        {
+            "value": "Design",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": "0"
+        }
+    ]
+}

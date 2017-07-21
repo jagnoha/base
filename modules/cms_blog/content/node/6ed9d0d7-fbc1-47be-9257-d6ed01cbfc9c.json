@@ -1,0 +1,214 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/blog\/evolution-drupal-themes?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/cms_blog"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_page_attachment": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/blog\/attachments\/unsplash-flower-makro_0.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_category": [
+            {
+                "href": "http:\/\/default\/blog-category\/drupal?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_page_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/blog\/images\/photo-1416862291207-4ca732144d83_2_0_0_0.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_tags": [
+            {
+                "href": "http:\/\/default\/tags\/business?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/inspiration?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/travel?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "6ed9d0d7-fbc1-47be-9257-d6ed01cbfc9c"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cms_blog"
+        }
+    ],
+    "title": [
+        {
+            "value": "The Evolution of Drupal Themes",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_page_attachment": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/blog\/attachments\/unsplash-flower-makro_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "1c445e2f-bf62-4777-aa22-6295aab69db7"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": "1"
+                    }
+                ],
+                "display": "1",
+                "description": ""
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/blog-category\/drupal?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_category"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "a2b75392-0425-43da-b2cf-63c82116ab5f"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_page_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/blog\/images\/photo-1416862291207-4ca732144d83_2_0_0_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ee8dc5b1-afac-4973-8c96-67fbaa3729a5"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": "1"
+                    }
+                ],
+                "alt": "",
+                "title": "",
+                "width": "1140",
+                "height": "763"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/business?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e95e27e0-fd1c-4efe-be51-472d346a7a87"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/inspiration?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0a093c93-c727-475e-8795-70a95a9133ca"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/travel?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cd719102-fd49-4d1a-b989-c621435badcf"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "field_cms_page_body": [
+        {
+            "value": "<p>When she <em>reached<\/em> the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.<\/p>\r\n\r\n<p>Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a <strong>copy<\/strong>.<\/p>\r\n\r\n<p>The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word \"and\" and the Little Blind Text should turn around and return to its own, safe country.<\/p>\r\n\r\n<p>But nothing the copy said could convince her and so it didn\u2019t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their projects again and again.<\/p>\r\n\r\n<p>And if she hasn\u2019t been rewritten, then they are still using her.<\/p>\r\n\r\n<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.<\/p>\r\n\r\n<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ],
+    "field_cms_blog_comments": [
+        {
+            "status": "2",
+            "cid": "0",
+            "last_comment_timestamp": "1486967969",
+            "last_comment_name": null,
+            "last_comment_uid": "1",
+            "comment_count": "0"
+        }
+    ],
+    "uid": [
+        {
+            "target_id": "1"
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/blog-category\/business?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_category"
+        }
+    },
+    "uuid": [
+        {
+            "value": "8af7273d-88a6-4f89-96aa-74779520a29d"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_blog_category"
+        }
+    ],
+    "name": [
+        {
+            "value": "Business",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": "0"
+        }
+    ]
+}

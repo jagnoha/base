@@ -1,0 +1,167 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/blog\/examples-most-controversial-drupal-modules?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/cms_blog"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_category": [
+            {
+                "href": "http:\/\/default\/blog-category\/lifestyle?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_page_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/blog\/images\/photo-1444927714506-8492d94b4e3d_0_0_0.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_tags": [
+            {
+                "href": "http:\/\/default\/tags\/secrets?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/oppurtunities?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "f2f667c0-3132-48ad-a4c3-c35b7116add2"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cms_blog"
+        }
+    ],
+    "title": [
+        {
+            "value": "Examples of the most controversial Drupal modules",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/blog-category\/lifestyle?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_category"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "48be887c-3937-489b-8af5-0b7285887f50"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_page_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/blog\/images\/photo-1444927714506-8492d94b4e3d_0_0_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "9c239d88-91ec-4e5a-808d-1f6807c0ee79"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": "1"
+                    }
+                ],
+                "alt": "",
+                "title": "",
+                "width": "1140",
+                "height": "755"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/secrets?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8cc5bfc1-0819-44ec-9c3c-c4e09841644d"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/oppurtunities?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d4da4654-1e9d-45f2-9c36-39c9415133ec"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "field_cms_page_body": [
+        {
+            "value": "<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.<\/p>\r\n\r\n<p>Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.<\/p>\r\n\r\n<p>The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word \"and\" and the Little Blind Text should turn around and return to its own, safe country.<\/p>\r\n\r\n<p>But nothing the copy said could convince her and so it didn\u2019t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their projects again and again.<\/p>\r\n\r\n<p>And if she hasn\u2019t been rewritten, then they are still using her. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.<\/p>\r\n\r\n<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<\/p>\r\n\r\n<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ],
+    "field_cms_blog_comments": [
+        {
+            "status": "2",
+            "cid": "0",
+            "last_comment_timestamp": "1486967969",
+            "last_comment_name": null,
+            "last_comment_uid": "1",
+            "comment_count": "0"
+        }
+    ],
+    "uid": [
+        {
+            "target_id": "1"
+        }
+    ]
+}

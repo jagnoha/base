@@ -1,0 +1,37 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/blog-category\/drupal?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_category"
+        }
+    },
+    "uuid": [
+        {
+            "value": "a2b75392-0425-43da-b2cf-63c82116ab5f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_blog_category"
+        }
+    ],
+    "name": [
+        {
+            "value": "Drupal",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": "0"
+        }
+    ]
+}

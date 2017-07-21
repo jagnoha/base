@@ -1,0 +1,37 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/tags\/inspiration?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_tags"
+        }
+    },
+    "uuid": [
+        {
+            "value": "0a093c93-c727-475e-8795-70a95a9133ca"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "vid": [
+        {
+            "target_id": "cms_blog_tags"
+        }
+    ],
+    "name": [
+        {
+            "value": "Inspiration",
+            "lang": "en"
+        }
+    ],
+    "weight": [
+        {
+            "value": "0"
+        }
+    ]
+}

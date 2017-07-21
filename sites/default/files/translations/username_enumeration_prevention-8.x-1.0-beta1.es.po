@@ -1,0 +1,22 @@
+# Spanish translation of Username Enumeration Prevention (8.x-1.0-beta1)
+# Copyright (c) 2016 by the Spanish translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Username Enumeration Prevention (8.x-1.0-beta1)\n"
+"POT-Creation-Date: 2016-06-22 22:45+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Password reset instructions mailed to %name at %email."
+msgstr ""
+"Se han enviado instrucciones para restablecer la contraseña de %name "
+"a %email."
+msgid "Further instructions have been sent to your e-mail address."
+msgstr ""
+"Se han enviado más instrucciones a su dirección de correo "
+"electrónico."

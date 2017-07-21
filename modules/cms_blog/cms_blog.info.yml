@@ -1,0 +1,103 @@
+name: CMS blog
+type: module
+description: Glazed Drupal CMS Blog
+package: Glazed Drupal CMS
+# version: 8.x-1.0-dev
+# core: 8.x
+dependencies:
+  - block_class
+  - cms_core
+  - comment
+  - field_formatter_class
+  - field_group
+  - file
+  - image
+  - image_hover_effects
+  - link
+  - node
+  - path
+  - path
+  - smart_trim
+  - tagclouds
+  - taxonomy
+  - text
+  - views
+  - views_bootstrap
+config:
+  install:
+    - comment.type.cms_blog_comments
+    - core.entity_form_display.comment.cms_blog_comments.default
+    - core.entity_form_display.node.cms_blog.default
+    - core.entity_view_display.comment.cms_blog_comments.default
+    - core.entity_view_display.node.cms_blog.default
+    - core.entity_view_display.node.cms_blog.teaser
+    - field.field.comment.cms_blog_comments.field_cms_blog_comment_body
+    - field.field.node.cms_blog.field_cms_page_attachment
+    - field.field.node.cms_blog.field_cms_page_body
+    - field.field.node.cms_blog.field_cms_blog_category
+    - field.field.node.cms_blog.field_cms_blog_comments
+    - field.field.node.cms_blog.field_cms_page_image
+    - field.field.node.cms_blog.field_cms_blog_tags
+    - field.storage.comment.field_cms_blog_comment_body
+    - field.storage.node.field_cms_blog_category
+    - field.storage.node.field_cms_blog_comments
+    - field.storage.node.field_cms_blog_tags
+    - node.type.cms_blog
+    - pathauto.pattern.cms_blog
+    - pathauto.pattern.cms_blog_categories
+    - pathauto.pattern.cms_blog_tags
+    - taxonomy.vocabulary.cms_blog_category
+    - taxonomy.vocabulary.cms_blog_tags
+    - user.role.cms_blogger
+    - views.view.cms_blog_authors
+    - views.view.cms_blog_categories
+    - views.view.cms_blog_classic
+    - views.view.cms_blog_grid_2_columns
+    - views.view.cms_blog_grid_3_columns
+    - views.view.cms_blog_grid_4_columns
+    - views.view.cms_blog_modern
+    - views.view.cms_blog_teasers
+    - views.view.cms_blog_titles
+    - views.view.cms_feaured_blog_headline
+default_content:
+    node:
+      - d3faf381-3f9a-405b-bd67-5e039b43b2cf
+      - 14bbed3a-f55c-4c29-8e38-f36c7a102add
+      - efdd2873-03c3-46b1-b038-1f3e838fbf00
+      - 6ea8f247-1b01-412d-b98f-5d3ccaa3faaa
+      - f2f667c0-3132-48ad-a4c3-c35b7116add2
+      - 9fa08225-93a8-48b6-a12c-b3b350ed3e57
+      - 08ff365b-2ba3-41e4-ae40-03f1d7879f3a
+      - 6ed9d0d7-fbc1-47be-9257-d6ed01cbfc9c
+    file:
+      - a3ad4775-bdd1-4a7a-9627-80bc6d694730
+      - 13e5de38-1e60-4a64-b221-b0a11a663fdc
+      - e8988a38-0e9b-4fca-9abb-5c8061c14c28
+      - c87c9982-90c7-4d58-ab44-28a203dfa6d4
+      - 9c239d88-91ec-4e5a-808d-1f6807c0ee79
+      - 70d9db65-5bf3-4194-802e-62f7e8897924
+      - b3b48c39-8ee4-4811-a3a4-7d8a95d3e206
+      - ee8dc5b1-afac-4973-8c96-67fbaa3729a5
+    taxonomy_term:
+      - 8af7273d-88a6-4f89-96aa-74779520a29d
+      - 29ae66bc-c21d-4ea0-ab00-c49ae49fc918
+      - a2b75392-0425-43da-b2cf-63c82116ab5f
+      - 48be887c-3937-489b-8af5-0b7285887f50
+      - e95e27e0-fd1c-4efe-be51-472d346a7a87
+      - d4da4654-1e9d-45f2-9c36-39c9415133ec
+      - 0a093c93-c727-475e-8795-70a95a9133ca
+      - 8cc5bfc1-0819-44ec-9c3c-c4e09841644d
+      - cd719102-fd49-4d1a-b989-c621435badcf
+    menu_link_content:
+      - 30dfc743-cba4-4748-b70f-aa5f0895300c
+      - b32d64d1-b9a4-4581-a7b1-4257575de7f4
+      - 18ed348f-4aff-41af-b31b-4cc4b022381a
+      - 9fed5a6d-2e99-4d43-803f-d986bac578ff
+      - f2b520f7-231f-4df8-8c99-ddd094f8c38c
+      - ea420aa7-da87-4512-b021-34f26445442a
+
+# Information added by Drupal.org packaging script on 2017-06-05
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'cms_blog'
+datestamp: 1496674522

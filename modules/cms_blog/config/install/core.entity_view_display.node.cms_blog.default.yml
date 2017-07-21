@@ -1,0 +1,63 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_display.comment.cms_blog_comments.default
+    - field.field.node.cms_blog.field_cms_page_attachment
+    - field.field.node.cms_blog.field_cms_page_body
+    - field.field.node.cms_blog.field_cms_blog_category
+    - field.field.node.cms_blog.field_cms_blog_comments
+    - field.field.node.cms_blog.field_cms_page_image
+    - field.field.node.cms_blog.field_cms_blog_tags
+    - image.style.cms_bootstrap_12_12
+    - node.type.cms_blog
+  module:
+    - comment
+    - field_formatter_class
+    - image
+    - text
+    - user
+id: node.cms_blog.default
+targetEntityType: node
+bundle: cms_blog
+mode: default
+content:
+  field_cms_page_body:
+    type: text_trimmed
+    weight: 1
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings:
+      field_formatter_class:
+        class: lead
+  field_cms_blog_comments:
+    weight: 4
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    type: comment_default
+  field_cms_page_image:
+    type: image
+    weight: 0
+    label: hidden
+    settings:
+      image_style: cms_bootstrap_12_12
+      image_link: ''
+    third_party_settings: {  }
+  field_cms_blog_tags:
+    type: entity_reference_label
+    weight: 2
+    label: visually_hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_cms_page_attachment: true
+  field_cms_blog_category: true

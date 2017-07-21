@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: field_preview
+label: 'Field Preview (150xTraditional 4:3)'
+effects:
+  8e9dc088-fb84-4183-ba85-4bb3f14003c4:
+    uuid: 8e9dc088-fb84-4183-ba85-4bb3f14003c4
+    id: focal_point_scale_and_crop
+    weight: 2
+    data:
+      width: 150
+      height: 113
+pipeline: ''

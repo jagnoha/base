@@ -1,0 +1,149 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/blog\/4-best-drupal-tricks-all-time?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/cms_blog"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_category": [
+            {
+                "href": "http:\/\/default\/blog-category\/business?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_page_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/blog\/images\/photo-1446160657592-4782fb76fb99_0_0_0_0_0.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_tags": [
+            {
+                "href": "http:\/\/default\/tags\/inspiration?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "efdd2873-03c3-46b1-b038-1f3e838fbf00"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cms_blog"
+        }
+    ],
+    "title": [
+        {
+            "value": "The 4 best Drupal Tricks of all time",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/blog-category\/business?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_category"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8af7273d-88a6-4f89-96aa-74779520a29d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_page_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/blog\/images\/photo-1446160657592-4782fb76fb99_0_0_0_0_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "e8988a38-0e9b-4fca-9abb-5c8061c14c28"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": "1"
+                    }
+                ],
+                "alt": "",
+                "title": "",
+                "width": "1140",
+                "height": "761"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/inspiration?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0a093c93-c727-475e-8795-70a95a9133ca"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "field_cms_page_body": [
+        {
+            "value": "<p>But nothing the copy said could convince her and so it didn\u2019t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their projects again and again. And if she hasn\u2019t been rewritten, then they are still using her.<\/p>\r\n\r\n<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<\/p>\r\n\r\n<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ],
+    "field_cms_blog_comments": [
+        {
+            "status": "2",
+            "cid": "0",
+            "last_comment_timestamp": "1486967969",
+            "last_comment_name": null,
+            "last_comment_uid": "1",
+            "comment_count": "0"
+        }
+    ],
+    "uid": [
+        {
+            "target_id": "1"
+        }
+    ]
+}

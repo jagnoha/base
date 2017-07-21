@@ -1,0 +1,167 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/blog\/10-reasons-youd-want-be-stuck-elevator-dries?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/cms_blog"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_category": [
+            {
+                "href": "http:\/\/default\/blog-category\/business?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_page_image": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/blog\/images\/LGhxuAbT5Wop4JYcrMpV_IMG_3808_0_0_0.jpg"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_tags": [
+            {
+                "href": "http:\/\/default\/tags\/oppurtunities?_format=hal_json"
+            },
+            {
+                "href": "http:\/\/default\/tags\/travel?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "6ea8f247-1b01-412d-b98f-5d3ccaa3faaa"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "cms_blog"
+        }
+    ],
+    "title": [
+        {
+            "value": "10 reasons you'd want to be stuck in an elevator with Dries",
+            "lang": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_category": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/blog-category\/business?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_category"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8af7273d-88a6-4f89-96aa-74779520a29d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_page_image": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/blog\/images\/LGhxuAbT5Wop4JYcrMpV_IMG_3808_0_0_0.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "c87c9982-90c7-4d58-ab44-28a203dfa6d4"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": "1"
+                    }
+                ],
+                "alt": "",
+                "title": "",
+                "width": "1140",
+                "height": "760"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/cms_blog\/field_cms_blog_tags": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/oppurtunities?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "d4da4654-1e9d-45f2-9c36-39c9415133ec"
+                    }
+                ]
+            },
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/tags\/travel?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/cms_blog_tags"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "cd719102-fd49-4d1a-b989-c621435badcf"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "promote": [
+        {
+            "value": "1",
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": "0",
+            "lang": "en"
+        }
+    ],
+    "field_cms_page_body": [
+        {
+            "value": "<p>ven the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.<\/p>\r\n\r\n<p>The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn\u2019t listen.<\/p>\r\n\r\n<p>She packed her seven versalia, put her initial into the belt and made herself on the way.<\/p>\r\n\r\n<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.<\/p>\r\n\r\n<p>Pityful a rethoric question ran over her cheek, then she continued her way. On her way she met a copy.<\/p>\r\n\r\n<p>The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word \"and\" and the Little Blind Text should turn around and return to its own, safe country.<\/p>\r\n",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ],
+    "field_cms_blog_comments": [
+        {
+            "status": "2",
+            "cid": "0",
+            "last_comment_timestamp": "1486967969",
+            "last_comment_name": null,
+            "last_comment_uid": "1",
+            "comment_count": "0"
+        }
+    ],
+    "uid": [
+        {
+            "target_id": "1"
+        }
+    ]
+}
